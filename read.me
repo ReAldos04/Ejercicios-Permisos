@@ -1,0 +1,23 @@
+1. Crear tres usuarios 'pepe', 'juan' y 'maria'. 
+1.1 Los usuarios pepe y maria deben ser creados con el comando de alto nivel que no plantea problemas.
+1.2 Para el usuario juan, usa el comando "useradd" (el comando incómodo). Intenta usando usermod, recrear toda la configuración de un usuario normal (su contraseña, su directorio de inicio, su grupo primario, etc)
+1.3 Si no se ha creado un grupo "juan", intenta crear un grupo juan y después configura el usuario para que éste sea su nuevo grupo primario. 
+1.4 Cambiar o crear las contraseñas igual que los nombres de los usuarios creados. 
+2. Comprobad que existen los directorios de inicio, que se puede conectar como dicho usuario y que en su directorio existen ficheros con permisos, dueños y grupo bien asignados 
+3. Cread un grupo llamado 'contables' 
+3.1 Nombra como administrador del grupo "contables" a"pepe". 
+3.2 Observa y anota los cambios en los ficheros de definición de grupos y usuarios. Demuestra que pepe es el administrador del grupo "contables". 
+3.3 ¿Es además pepe miembro de dicho grupo?¿Debe serlo? 
+4. Entra al sistema como pepe
+4.1 Intenta meter a "juan" como miembro del grupo de 'contables'. 
+4.2 Intenta cambiar la contraseña del grupo 'contables'. 
+5. Entra al sistema como maria 
+5.1 Toma privilegios para pertenecer Temporalmente al grupo "contables"
+5.2 Verifica con el comando adecuado los grupos a los que pertenece. 
+5.3 Crea un fichero nuevo y observa sus atributos. 
+5.4 Cambia los atributos de grupo una vez creado el grupo y restauralos
+5.5 Intenta volver a ser capaz de crear ficheros cuyo grupo sea maria, (sin salir de la sesión) 
+6. Entra al sistema como "maria" e: 
+6.1 Intenta hacerte miembro del grupo 'contables' usando la contraseña del grupo 
+6.2 Intenta usando la contraseña, pertenecer temporalmente otra vez al grupo "contables" 
+6.3 Intenta hacerte miembro del grupo "contables" ahora que perteneces temporalmente a él.
