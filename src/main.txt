@@ -6,7 +6,7 @@ sudo adduser maria
 
 1.2
 sudo useradd juan
-sudo passwd juan
+sudo useradd -m juan
 tree
 sudo cat /etc/gshadow
 sudo cat /etc/passwd
