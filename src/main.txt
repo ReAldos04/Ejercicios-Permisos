@@ -25,7 +25,7 @@ tree
 sudo gpasswd -A pepe contables
 
 3.2
-ls /etc/gshadow
+cat /etc/gshadow
 
 3.3
 No lo es. Si.
