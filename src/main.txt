@@ -51,7 +51,7 @@ touch prueba
 usermod -g contables
 
 5.5
-exit
+usermod -g maria
 
 6
 6.1
