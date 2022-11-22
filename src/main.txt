@@ -5,7 +5,7 @@ sudo adduser juan
 sudo adduser maria
 
 1.2
-sudo useradd juan
+sudo userdel juan
 sudo useradd -m juan
 
 1.3
